@@ -1,0 +1,111 @@
+/* toda a página */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250vh;
+    background: linear-gradient( to right top, #2aa700, #071a00);
+}
+
+/*estilizaçaõ do bloco onde se encontra todo o conteudo da página nele */
+.tot{
+  
+   
+    background-color: rgb(0, 107, 0);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0  5px 10px black;
+    position: relative;
+    width: 1100px;
+    height: 1400px;
+    margin-top: 400px;
+
+}
+
+/*estilização da parte de texto e do cabeçalho+ imagem */
+.cabeçalho{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family:serif;
+    text-shadow: 6px 6px 6px black;
+    color: white;
+   
+}
+
+/* estilização da imagem apenas */
+.cabeçalho img{
+    position: relative;
+    bottom: 30px;
+    width: 600px;
+}
+
+/*estilizaçaõ apenas do texto de cabeçalho */
+.log {
+    position: relative;
+   left: 40px;
+   font-size: 25px;
+}
+
+
+/*estilização da imagem gardne na página, da frente do campus  */
+.frente img{  
+    border-radius: 20px;
+    margin-top: 10px;
+    position: relative;
+    width: 800px;
+   left: 150px;
+}
+
+/* estilização do texto de recepção com o nome do usuario logo abaixo da imagem*/
+.text p{
+    text-shadow: 2px 6px 6px black;
+    color: white;
+    font-size: 25px;
+}
+
+/*Posicionamento do texto na página */
+.text{
+    margin-top: 70px;
+}
+
+/*Estilizaçaõ do texto clique no botão... */
+.text2 p{
+    font-size: 35px;
+}
+
+/*Posicionamento do titulo iniciar visita  */
+.principal{
+    margin-top: 100px;
+}
+
+/*estilização do titulo iniciar visita  */
+.principal p{
+    font-size: 50px;
+    position: relative;
+    left: 250px;
+    text-shadow: 2px 6px 6px black;
+    color: white;
+}
+
+/*posicionamento do botão clique aqui  */
+.bot{
+    position: relative;
+    left: 350px;
+}
+
+/* estilização da parte de etxto do botão   */
+a{
+    font-family: Georgia;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+/* botão clique aqui  */
+.bot button{
+    box-shadow: 0  5px 10px black;
+    width: 400px;
+    height: 100px;
+    border-radius: 50px;
+}

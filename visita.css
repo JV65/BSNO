@@ -1,0 +1,156 @@
+
+/* corpo do site, em degradê   */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( to right top, #2aa700, #071a00);
+}
+
+
+/* bloco verde que contém todo o conteudo da página   */
+.tot{
+  
+   
+    background-color: rgb(0, 107, 0);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0  5px 10px black;
+    position: relative;
+    width: 1200px;
+    height: 1500px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* poscisionamento do titulo principal da página  */
+.titulo{
+    position: relative;
+    bottom: 140px;
+   text-align: center;
+}
+/* estiização do titulo  */
+.titulo p{
+    text-shadow: 4px 6px 6px rgb(79, 250, 79);
+    font-family: serif;
+    font-size: 150px;
+}
+
+/* logo do if ao lado esquerdo da página  */
+.log img{
+
+position: relative;
+bottom: 270px;
+width: 400px;
+right: 170px;
+
+}
+
+
+/*estilização do titulo bem vindo   */
+.text .p1{
+   font-size: 65px;
+   position: relative;
+   bottom: 250px;
+   color: silver;
+   text-shadow: 4px 6px 6px black;
+}
+
+/* estilização do texto logo abaixo de bem vindo   */
+.text .p2{
+    position: relative;
+ bottom: 270px;
+ color: white;
+ text-shadow: 4px 6px 6px black;
+ font-size: 28px
+}
+
+/*  toda a parte de texto incuindo titulo */
+.text{
+    position: relative;
+    bottom: 400px;
+left: 200px;
+    
+}
+
+/* estilização de todas as imagens da parte de links  */
+.item img{
+    border-radius: 20px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    right: 70px;
+    border: 1px solid black;
+}
+
+
+/* todas as imagems de cima, que estão abaixo do titulo salas e instalações, com gap que é a margem */
+.comp {
+ 
+    gap: 50px;
+    display: flex;
+    position: relative;
+     left: 20px;
+     bottom: 150px;
+}
+
+
+/* tranformando as imagens em blocos com display block, para que elaa ocupem toda a largura da página */
+.comp .item img {
+    transition: 0.5s;
+    display: block;
+    position: relative;
+     right: 20px;
+}
+
+/* colocando todo esse bloco, em hover para que crie esse efeito de destaque  */
+.comp:hover .item img {
+    opacity: 0.3;/* para que as outras iamgens fiquem em menos destaque, ofuscadas */
+}
+
+/* a escala é para que a imagem ao colocar o cursor em cima, ela aumente de tamnho   */
+.comp .item img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+
+
+/* já aqui a parte de baixo, com o restante das imagens, contém os mesmo procedimentos de cima, muda apenas a classe  */
+.model {
+    gap: 50px;
+    display: flex;
+    position: relative;
+    display: flex;
+   bottom: 800px;
+  left: 250px;
+  
+}
+
+/* tranformando as imagens em blocos com display block, para que elaa ocupem toda a largura da página */
+.model .item img {
+    transition: 0.5s;
+    display: block;
+    position: relative;
+}
+
+/* colocando todo esse bloco, em hover para que crie esse efeito de destaque  */
+.model:hover .item img {
+    opacity: 0.3;
+}
+
+/* a escala é para que a imagem ao colocar o cursor em cima, ela aumente de tamnho   */
+.model .item img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+
+
+
+

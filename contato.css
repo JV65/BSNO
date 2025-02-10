@@ -1,0 +1,144 @@
+/*Corpo da página, com fonte da parte do botão voltar e fazendo com que fique tudo responsivo */
+
+
+body{
+padding: 0;
+display: flex;
+justify-content: center;
+background-color:  #144701;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* fonte das partes das principais da página, como emil e textos do lado  */
+.tot-container{
+    font-family: sans-serif ;
+}
+   
+
+/* fundo da parte de cima da página */
+.header{
+    border-radius: 20px;
+    margin: 30px;
+
+   
+}
+
+
+/* logo do campus, que está dentro do fundo verde mais claro */
+.header img{
+    position: relative;
+    left: 350px;
+  justify-content: center;
+  display: flex;
+}
+
+/* Toda a parte que está a esquerda na página*/
+.esquerda{
+   
+    padding: 100px;
+    color: white;
+    font-size: 60px;
+    position: relative;
+   right: 30px;
+   text-shadow: 2px 2px 4px black ;
+}
+
+
+/*Apenas  os texto da parte da esquerda com efeito de fundo, em especifoc o titulo */
+.esquerda p{
+   text-shadow: 4px 4px 6px black;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    margin: 0;
+    position: relative;
+    font-size: 70px;
+    color: silver;
+    
+}
+
+/* todo o restante do texto da parte esquerda página */
+.esquerda h6{
+    font-size: 42px;
+    padding: 80px;
+    border-radius: 50px;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(2, 19, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 60px;
+    line-height: 1.5; 
+    text-shadow: 4px 4px 6px rgb(28, 149, 1);
+}
+
+/*Toda a parte da direita da página  */
+.direita{
+    font-size: 30px;
+    position: relative;
+    bottom: 900px;
+    left: 900px;
+    color: rgb(4, 4, 112);
+    text-shadow: 2px 2px 4px black;
+}
+b{
+    color: black;
+}
+
+/*Contendo o titulo email */
+
+.ema{
+    font-size: 50px;
+    color: rgb(104, 103, 103);
+}
+
+/* logo do ifrn rodapé da página */
+.png img{
+   
+    
+    position: relative;
+    height: 100px;
+    width: 300px;
+    margin: 30px;
+    right: 270px;
+   display: block;
+   bottom: 60px;
+   
+    
+}
+
+
+/* restante das imagens do rodapé  */
+footer img {
+    position: relative;
+    right: 290px;
+    width: 100px;
+    height: 65px;
+
+}
+
+/* ajustes do rodapé, imagens + texto  */
+footer{
+  
+   left: 240px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 150px;
+    
+}
+
+
+/* texto do rodapé  */
+.info{
+    bottom: 20px;
+  position: relative;
+    right: 20px;
+}
+
+/* margem para as fotos links da parte de baixo da página */
+footer a{
+    
+    margin: 10px;
+}

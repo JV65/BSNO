@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+ <!--Corpo de todo o código-->
+<body>
+    
+     <!--div toda a cixa verde ao lado do formulario -->
+<div class="cad">
+
+    
+      <!-- div que possui a logo do ifrn-->
+    <div class="cabeçalho">
+    
+        <img src="logo1-removebg-preview.png" alt="">
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+  <!--div mãe de todo o formulario, que contém borda -->
+    <div class="bor">
+
+        <h2><b>LOGIN</b></h2>
+        
+          <!--formulario -->
+        <form action="#">
+
+
+            <label for="nome">Nome:</label>
+            <div class="campo">
+                <input type="text" id="nome" name="nome"  placeholder="Digite seu nome">
+        </div>
+       
+         
+               
+                
+
+                <label for="nome">Senha:</label>
+                <div class="campo">
+                    <i class="zmdi zmdi-eye"></i>
+                    <input type="password" name="Senha" placeholder="Digite sua senha">
+                   
+                    </div>
+
+
+  <!-- botão entrar, que redireciona para a pagina de recpção -->
+            <div class="bot">    
+                <button type="button" onclick="registrar()">ENTRAR</button>
+            </div>
+                
+
+            </form>
+        
+
+              <!-- Codigo javascrip, usado para fazer as funções de: não aceitar numeros no forms, obriga o usuario a digitar seu nome e obriga a ele digitar um nome que tenha um numero maisor que 2 letras. OBS: Foi usado apenas nome, pois não tem como ainda armazenar email e senha em um banco, assim salvando essas informações   -->   
+          <script>
+
+             // Função que registra e envia os dados de nome do usuario, para a pagina de recepção
+            function registrar() {
+              const nome = document.getElementById("nome").value;
+              const url = "Recepção.html?nome=" + nome;
+              window.location.href = url;
+            }
+
+
+//Funçaõ que faz toda a validação do nome do forms
+            function registrar() {
+      const nome = document.getElementById("nome").value.trim();
+
+
+
+      //if que faz com que o usuario seja obrigado a digitar seu nome no campo nome do forms
+      if (nome == "") {
+        alert("Por favor, preencha obrigatoriamente o campo nome.");
+        return; // Interrompe o fluxo se o nome não foi preenchido
+      } 
+
+
+      //Codinção que não permite que o usuario não digite numeros em seu nome OBS: /\d/ é uma ferramenta que serve para verificar se existe algum número (0 a 9) dentro de um texto.
+      if (/\d/.test(nome)) {
+      alert("O campo nome não pode conter números. Por favor, insira um nome válido.");
+      return; // Interrompe o fluxo se houver números no nome
+    }
+
+
+
+     //Verifica se a quantidade de letras digitadas é maior que 2, assim não permitindo que digite uma quantidade menor que 2 letras
+    if (nome.length <= 2) {
+      alert("O nome deve ter mais de 2 letras. Por favor, insira um nome válido.");
+      return; // Interrompe o fluxo se o nome tiver 2 ou menos letras
+    }
+
+
+
+
+
+    //Adiciona o nome à URL e redireciona o usuário para outra página.
+      const url = "Recepção.html?nome=" + encodeURIComponent(nome);
+      window.location.href = url;}
+
+
+
+
+
+
+
+          </script>
+
+    </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>

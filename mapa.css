@@ -1,0 +1,201 @@
+
+/* corpo da página, com fundo verde e responsivo */
+body{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 32, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    /*Fundo verde da página, arredondada  */
+    .tot-container{
+        font-family: sans-serif ;
+        margin: 100px;
+        border-radius: 50px;
+        width: 1200px;
+        background: linear-gradient( to right top, #2aa700, #071a00);
+        box-shadow: 0  5px 10px black;
+        height: 3000px;
+    }
+       
+    
+    /*estilização da parte superior da página, que contém fundo + imagem  */
+    .header{
+        border-radius: 150px;
+        width: 1100px;
+        margin: 50px;
+  
+       
+    }
+    
+    /* ajustes da imagem, da logo da parte superior da página  */
+    .header img{
+        position: relative;
+        left: 300px;
+    }
+    
+    
+    /*  toda parte contendo o tema e a iamgem do mapa */
+    .cima{
+       
+        padding: 100px;
+        color: white;
+        font-size: 60px;
+        position: relative;
+       right: 30px;
+      
+       
+    }
+    
+    /*apenas a parte de texto, em especifico o titulo  */
+    .cima p{
+       text-shadow: 6px 6px 10px black;
+        font-family: sans-serif ;
+        margin: 0;
+        position: relative;
+        margin: 30px;
+        color: white;
+        bottom: 100px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    
+
+
+/* ajustes da imagem do mapa do campus */
+    .map img{
+        width: 800px;
+        height: 500px;
+        border-radius: 50px;
+        margin: 150px;
+        position: relative;
+        bottom: 20px;
+        right: 280px;
+        box-shadow: 0  5px 10px black;
+    }
+
+/* Estilização dos numeros de 1 a 10, ao lado do mapa */
+.number p{
+    font-size: 28px;
+  color: #00ff08;
+  text-shadow: 2px 2px 0px #2e7d32, 4px 4px 0px #000100;
+  line-height: 0.9;
+}
+
+/* posicionamento da div dos numeros*/
+.number{
+    position: relative;
+    bottom: 880px;
+    left: 800px;
+}
+
+/* Estilização de cada campo do if, ao lado dos numeros */
+.tt p{
+    font-size: 25px;
+    color: #ff0000;
+    text-shadow: 2px 2px 0px #2e7d32, 4px 4px 0px #000100;
+}
+
+/* Posicionamento da div dos campos */
+.tt{
+    position: relative;
+    bottom: 1415px;
+    left: 850px;
+}
+
+/* posicionamneto de toda a parte numerada e de campos do if  */
+.direito{
+    margin-top: 100px;
+    position: relative;
+    right: 30px;
+}
+
+
+    
+
+/* titulo grande logo abaixo do mapa*/
+.titulo p{
+ font-size: 70px;
+ text-shadow: 2px 2px 0px #000000, 4px 4px 0px #000100;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: silver;
+ position: relative;
+ bottom: 1300px;
+ left: 50px;
+}
+  
+/*estilização do texto abaixo de navegue */
+.ter p{
+font-size: 35px;
+ text-shadow: 4px 4px 6px #000000;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: white;
+ position: relative;
+ bottom: 1320px;
+ left: 50px;
+}
+
+/* estilização da imagem do letreiro do if*/
+.log img{
+    width: 600px;
+    border-radius: 50px;
+    box-shadow: 0  5px 10px black;
+}
+
+/* pocisionamento da imagem */
+.log{
+    position: relative;
+    bottom: 1100px;
+    right: 50px;
+}
+
+/* titulo ao lado da imagem do letreiro */
+.tit p{
+    font-size: 70px;
+    text-shadow: 2px 2px 0px #000000, 4px 4px 0px #000100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: silver;
+    position: relative;
+    bottom: 2050px;   
+    left: 600px;
+}
+
+/* texto ao lado da imagem do letreiro */
+.tet p{
+    font-size: 30px;
+    text-shadow: 2px 2px 0px #000000, 4px 4px 0px #000100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: silver;
+    position: relative;
+    bottom: 2050px;   
+    left: 600px;
+}
+
+/* div mãe de todo texto ao lado da imagem do letreiro */
+.lad{
+    margin-top: 200px;
+}
+
+
+
+/*  ajustes do video*/
+video{
+    position: relative;
+    width: 600px;
+   float: right;
+   right: 30px;
+   border-radius: 50px;
+}
+
+/* div mãe do video na parte inferior da página */
+.vcom{
+    position: relative;
+    bottom: 2000px;
+    left: 70px;
+}
+
+
+

@@ -1,0 +1,108 @@
+
+/*Toda a página, onde contém um Fundo verde em degradê */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient( to right top, #2aa700, #071a00);
+}
+/*Bloco verde ao lado esquerdo, contém a logo do if */
+.cad{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(0, 107, 0);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0  5px 10px black;
+    position: relative;
+}
+/*Estilização da logo do IFRN */
+.cabeçalho img{
+    margin-top: 40px;
+}
+
+/*Div que contém o formulario, e possuí uma borda fina */
+.bor{
+   border: solid 1px rgb(0, 56, 5);
+   padding: 40px;
+   height: 500px;
+   
+}
+
+/*Estilização do titulo cadastre-se */
+.bor h2{
+position: relative;
+font-size: 30px;
+font-weight: 600;
+color: black;
+bottom: 20px;
+
+}
+
+/*Linha horizontal com efeito, que está logo abaixo do nome cadastre-se */
+.bor h2::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #0b2701;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+
+/*Estilizaçaõ dos titulos das caixas de texto */
+label{
+    position: relative;
+    bottom: 20px;
+}
+
+/*Caixas de texto */
+input{
+ background-color: silver;
+}
+/*Formulario*/
+form{
+    margin-top: 30px
+}
+/*Tamanho da div que contém o forms */
+form .campo{
+    height: 52px;
+    margin: 18px 0;
+}
+
+/*Estilização das caixas de texto do forms*/
+.campo input{
+    height: 100%;
+    width: 500px;
+    border: 1.5 solid silver;
+    outline: none;
+    font-size: 17px;
+    padding: 0 17px;
+    border-radius: 8px;
+    font-weight: 400;
+    transition: all 300ms ease;
+    box-shadow: 0  5px 10px black;
+    bottom: 30px;
+    position: relative;
+    
+}
+
+/*div que contém o botão*/
+.bot{
+    position: relative;
+   left: 100px;
+}
+
+
+/*Estilização do botão de registro*/
+.bot button{
+    box-shadow: 0  5px 10px black;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+}

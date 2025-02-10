@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEJA BEM VINDO!!</title>
+    <link rel="stylesheet" href="Recepção.css">
+</head>
+<body>
+    
+
+
+
+
+ <!-- o menor bloco que contem todo o conteudo da página -->
+<div class="tot">
+
+    <!-- logo do if + titulo seja bem vindo -->
+ <div class="cabeçalho">
+     
+     <img src="logo1-removebg-preview.png" alt="">
+     
+     <div class="log">
+
+         <h2>SEJA BEM VINDO AO IFRN- CAMPUS JOÃO CÂMARA</h2>
+         
+     </div>
+
+
+
+     
+ </div>
+
+
+ <!-- imagem da frente do if-->
+<div class="frente">
+
+    <img src="Frente.jpeg" alt="">
+
+
+</div>
+
+<!--  texto de recepçaõ com o nome do usuario logo abaixo da imagem -->
+<div class="text">
+
+ 
+    <p> Olá <span id="nome"></span>, seja muito bem-vindo(a) ao IFRN - Campus João Câmara!</p>
+
+    <p>Estamos animados em tê-lo(a) conosco nessa jornada virtual. Prepare-se para explorar nossas instalações, conhecer nossos laboratórios de ponta e descobrir tudo o que o nosso campus tem a oferecer.</p>
+
+    <p> Você está prestes a embarcar em uma experiência única e interativa. Explore cada canto do nosso campus e descubra por que o IFRN - Campus João Câmara é o lugar ideal para você construir seu futuro.</p>
+
+    <!-- texto logo acima do botão iniciar -->
+<div class="text2">
+    <p>Clique no botão abaixo para iniciar sua visita virtual e conhecer de perto tudo o que temos para te oferecer!</p>
+    
+</div>
+
+</div>
+
+<!--toda a parte onde o nome do usuario é impresso na página, trazendo da página login ou cadastro -->
+    <script>
+        // Obter o nome da URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var nome = urlParams.get('nome');
+
+        // Exibir o nome na página
+        document.getElementById("nome").textContent = nome;
+    </script>
+
+
+<!-- titulo acima do botão-->
+<div class=" principal">
+
+<p>INICIAR VISITA VIRTUAL</p>
+
+</div>
+
+
+<!-- Botão de acesso a visita virtual -->
+<div class="bot">
+
+    <button><a href="visita.html">CLIQUE AQUI</a></button>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,359 @@
+
+/* Fundo verde, com max-width, para que a página fique de um tamnho só, ao diminuir não distanciar os elementos   */
+body{
+background-color: #0d5502;
+font-family: Georgia, 'Times New Roman', Times, serif;
+justify-content: center;
+}
+
+/* Logo abaixo, funções para a página ficar responsiva */
+
+
+.tot-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*página dentro de bory, contendo o fundo branco  */
+.tot{
+    
+   position: relative;
+}
+
+/* Lista ordenada, que é a parte do lado da logo do ifrn, fazendo com que ela fique  de forma organizada  */
+.listb{
+  
+    
+    font-size: 24px ;
+    list-style: none;
+    left: 300px;
+    position: relative;
+    display: flex;
+    bottom: 126px;
+    
+
+}
+
+
+/* lista mais imagem, com fundo em degradê, contendo toda a parte superior da página  */
+.list{
+    box-shadow: 2px 2px 2px black;
+    background: linear-gradient(to right, #158a00, #0d5502);
+    height: 90px;
+    margin-top: 20px ;
+    width: 1700px;
+    position: relative;
+    
+}
+
+/*classe mãe da lista ordenada na parte superior da página */
+.move{
+    position: relative;
+    left: 150px;
+}
+
+
+.move2{
+   
+    justify-content: center;
+
+}
+
+.list img{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+
+/* elementos de hover para que ao passar o a seta por cima da lista superior, de um efeito de destaque apenas na que está selecionada */
+
+ul li a{
+    transition: 0.2;
+    display: block;
+    position: relative;
+}
+
+
+ul:hover li a{
+   opacity: 0.3; 
+}
+
+ul li a:hover{
+    opacity: 1;
+   transform: scale(1.2) ;
+}
+
+
+
+
+
+
+/* distancia entre cada elemento da lista */
+li{
+    margin: 30px;
+}
+
+/* Tirar a linha dos elementos da lista  */
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* tamanho da logo do if, no canto superior esquerdo */
+img{
+     width: 300px;
+    height: 100px;
+    
+   
+}
+
+
+/*div que contem o botão de cima cadastre-se, na parte de cima de página  */
+.cad{
+    position: relative;
+    bottom: 230px;
+    left: 1190px;
+    font-size: 50px;
+    
+}
+
+/* Estilização do botão cadastre-se */
+.cad button{
+    background-color: silver;
+    box-shadow: 4px 4px 6px green;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border: 2px solid green ;
+    border-radius: 20px;
+    font-size: 26px;
+   
+}
+/*Estilização do texto qeu esta dento do botão   */
+.cad a{
+    font-size: 23px;
+    color: green;
+}
+
+
+/* texto dentro do carrossel de fotos do campus */
+.container{
+
+   color: white;
+    left: 60px;
+   float: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    text-shadow: 2px 2px 4px black;
+    left: 250px;
+    
+}
+
+/* Carrossel de fotos, onde  overflow, faz que apareça a barra da parte de baixo, para que as fotos sejam movidas  */
+.box{
+    
+    width: 1100px;
+    height:  700px;
+    position: relative;
+    overflow: auto;
+    display: flex;
+    border-radius:50px ;
+    left: 200px;
+   bottom: 40px;
+
+}
+
+/* tamanho das imagens do carrossel */
+.box img{
+    width: 1100px;
+    height: 600px;
+    left: 0;
+    flex-shrink:0 ; /*Permite que as imagens fiquem todas com  o mesmo tamanho */ 
+    object-fit: cover;  /* Não permite que a imagens fique esticada */
+    
+}
+
+
+ /* margem para o carrossel de fotos */
+.t{
+    margin: 100px;
+}
+
+
+/*imagem da frente do if, no meio da página  */
+.entrada img{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 1100px;
+    left: 100px;
+}
+
+/*div que contem a imagem e o texto, no meio da página  */
+.meio{
+    display: flex;
+    justify-content:center ;
+}
+
+
+
+
+
+
+/* logo do ifrn rodapé da página */
+.png img{
+   
+    
+    position: relative;
+    height: 100px;
+    width: 300px;
+    margin: 30px;
+    right: 270px;
+   display: block;
+   bottom: 45px;
+   
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+/* restante das imagens do rodapé  */
+
+footer img {
+    position: relative;
+    right: 290px;
+    width: 100px;
+    height: 65px;
+
+}
+
+/* ajustes do rodapé, imagens + texto  */
+footer{
+  
+   left: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 150px;
+    
+}
+
+/* texto do rodapé  */
+
+.info{
+  position: relative;
+    right: 20px;
+}
+
+/* margem para as fotos links da parte de baixo da página */
+footer a{
+    
+    margin: 10px;
+}
+
+
+/*estilização do titulo Transforma vidas  */
+.tmove p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1200px;
+    font-size:70px;
+    right: 108px;
+    color: white;
+    text-shadow: 4px 6px 6px black;
+}
+
+
+/*texto logo abaixo do titulo - transforma vidas  */
+.t2 p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1280px;
+    font-size: 30px;
+   right:90px;
+  color: white;
+ 
+
+}
+/*estilização do texto acima do botão cadastre-se, da parte de baixo da página */
+.t2 .p0{
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    text-shadow: 4px 6px 6px black;
+    position: relative;
+    right: 200px;;
+    margin-top: 200px;
+    
+}
+
+
+
+/*estilização do botão cadastre-se e posicionamento */
+.bot{
+    position: relative;
+    right: 400px;
+    bottom: 1290px;
+    display: flex;
+    justify-content: center;
+}
+/*Parte de texto no botão  */
+.a1{
+    font-family: Georgia;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(6, 246, 38);
+}
+
+/*estilizaçaõ do botão cadastre-se  */
+.bot button{
+    box-shadow: 0  5px 10px  green;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: silver;
+    position: relative;
+    right: 100px;
+}
+
+
+
+
+
+
+
+
+/* clase ma~e de todoso os elementos abaixo do carrosel de fotos  */
+.tg {
+    margin-top: 1200px;
+    justify-content: center;
+}
+
+/* texto ao lado da imagem do meio da página */
+.p8 p{
+    font-size: 30px;
+    text-shadow: 4px 6px 6px black;
+    background-color: rgb(4, 32, 2);
+    padding: 20px;
+    margin-top: 600px;
+    border-radius: 10px;
+    position: relative;
+    right: 200px;
+}
+
+/* texto ao lado da imagem do meio da página */
+.p8{
+    display: flex;
+}
+
